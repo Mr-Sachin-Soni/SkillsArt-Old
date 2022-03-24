@@ -1,0 +1,17 @@
+.Footer {
+    background-color: black;
+    color: white;
+}
+
+.Footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    color: white;
+
+}
+.Footer p{
+    color: grey;
+}

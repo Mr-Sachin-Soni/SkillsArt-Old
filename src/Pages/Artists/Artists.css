@@ -1,0 +1,14 @@
+.artist-heading {
+    padding-top: 40px;
+    font-size: 36px;
+
+}
+
+.underline {
+    height: 04px;
+    width: 15rem;
+    background-color: orangered;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
