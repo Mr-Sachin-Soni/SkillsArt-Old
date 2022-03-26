@@ -11,13 +11,8 @@ export const SignUp = () => {
     password: "",
     cpassword: "",
   });
-  let name, value;
   const handleInputs = (e) => {
-    console.log(e);
-    name = e.target.name;
-    value = e.target.value;
-
-    setUser({ ...user, [name]: value });
+    setUser({ ...user, [e.target.name]: e.target.value });
   };
 
   const PostData = async (e) => {
@@ -60,7 +55,7 @@ export const SignUp = () => {
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-12 col-md-8 col-lg-6 col-xl-5">
               <div className="card bg-dark text-white">
-                <form method="POST" className="card-body p-5 text-center">
+                <form method="POST" className="card-body p-5 text-center" onSubmit={PostData}>
                   <div className="mb-md-5 mt-md-4 pb-5">
                     <h2 className="fw-bold mb-2 text-uppercase">Sign Up</h2>
                     <p className="text-white-50 mb-5">
@@ -76,6 +71,7 @@ export const SignUp = () => {
                         id="typeNameX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
+                        value={user.name}
                       />
                       <label className="form-label" value={user.name}>
                         Username
@@ -88,6 +84,7 @@ export const SignUp = () => {
                         id="typeEmailX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
+                        value={user.email}
                       />
                       <label className="form-label" value={user.email}>
                         Email
@@ -100,6 +97,7 @@ export const SignUp = () => {
                         id="createPasswordX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
+                        value={user.password}
                       />
                       <label className="form-label" value={user.password}>
                         Create Password
@@ -112,6 +110,7 @@ export const SignUp = () => {
                         id="confirmPasswordX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
+                        value={user.cpassword}
                       />
                       <label className="form-label" value={user.cpassword}>
                         Confirm Password
@@ -131,7 +130,6 @@ export const SignUp = () => {
                     <button
                       className="btn btn-outline-light btn-lg px-5"
                       type="submit"
-                      onClick={PostData}
                     >
                       Sign Up
                     </button>
