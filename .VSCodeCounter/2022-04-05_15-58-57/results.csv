@@ -1,0 +1,41 @@
+"filename", "language", "JavaScript", "CSS", "JavaScript React", "XML", "JSON", "Markdown", "HTML", "comment", "blank", "total"
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\DB\connection.js", "JavaScript", 8, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\Models\UserSchema.js", "JavaScript", 48, 0, 0, 0, 0, 0, 0, 6, 4, 58
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\Routes\Auth.js", "JavaScript", 57, 0, 0, 0, 0, 0, 0, 29, 15, 101
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\app.js", "JavaScript", 37, 0, 0, 0, 0, 0, 0, 3, 8, 48
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\package-lock.json", "JSON", 0, 0, 0, 0, 3624, 0, 0, 0, 1, 3625
+"c:\Users\hp\Desktop\SkillsArt\Backend\Server\package.json", "JSON", 0, 0, 0, 0, 22, 0, 0, 0, 1, 23
+"c:\Users\hp\Desktop\SkillsArt\README.md", "Markdown", 0, 0, 0, 0, 0, 38, 0, 0, 33, 71
+"c:\Users\hp\Desktop\SkillsArt\package-lock.json", "JSON", 0, 0, 0, 0, 28447, 0, 0, 0, 1, 28448
+"c:\Users\hp\Desktop\SkillsArt\package.json", "JSON", 0, 0, 0, 0, 48, 0, 0, 0, 1, 49
+"c:\Users\hp\Desktop\SkillsArt\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 20, 23, 1, 44
+"c:\Users\hp\Desktop\SkillsArt\public\manifest.json", "JSON", 0, 0, 0, 0, 25, 0, 0, 0, 1, 26
+"c:\Users\hp\Desktop\SkillsArt\src\App.css", "CSS", 0, 33, 0, 0, 0, 0, 0, 0, 6, 39
+"c:\Users\hp\Desktop\SkillsArt\src\App.js", "JavaScript", 31, 0, 0, 0, 0, 0, 0, 0, 4, 35
+"c:\Users\hp\Desktop\SkillsArt\src\App.test.js", "JavaScript", 7, 0, 0, 0, 0, 0, 0, 0, 2, 9
+"c:\Users\hp\Desktop\SkillsArt\src\Components\Footer\Footer.css", "CSS", 0, 14, 0, 0, 0, 0, 0, 0, 3, 17
+"c:\Users\hp\Desktop\SkillsArt\src\Components\Footer\Footer.jsx", "JavaScript React", 0, 0, 53, 0, 0, 0, 0, 1, 4, 58
+"c:\Users\hp\Desktop\SkillsArt\src\Components\Navbar\Navbar.jsx", "JavaScript React", 0, 0, 50, 0, 0, 0, 0, 9, 2, 61
+"c:\Users\hp\Desktop\SkillsArt\src\Components\Slider\Slider.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\hp\Desktop\SkillsArt\src\Components\Slider\Slider.jsx", "JavaScript React", 0, 0, 31, 0, 0, 0, 0, 20, 2, 53
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\About\About.css", "CSS", 0, 11, 0, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\About\About.jsx", "JavaScript React", 0, 0, 17, 0, 0, 0, 0, 16, 2, 35
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Artists\Artists.css", "CSS", 0, 11, 0, 0, 0, 0, 0, 0, 4, 15
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Artists\Artists.jsx", "JavaScript React", 0, 0, 150, 0, 0, 0, 0, 80, 7, 237
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts.css", "CSS", 0, 163, 0, 0, 0, 0, 0, 7, 31, 201
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts.jsx", "JavaScript React", 0, 0, 254, 0, 0, 0, 0, 63, 13, 330
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts2.jsx", "JavaScript React", 0, 0, 14, 0, 0, 0, 0, 303, 4, 321
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts3.jsx", "JavaScript React", 0, 0, 52, 0, 0, 0, 0, 2, 8, 62
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Home\Home.css", "CSS", 0, 19, 0, 0, 0, 0, 0, 0, 6, 25
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Home\Home.jsx", "JavaScript React", 0, 0, 211, 0, 0, 0, 0, 7, 12, 230
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Login\Login.jsx", "JavaScript React", 0, 0, 59, 0, 0, 0, 0, 10, 8, 77
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Login\Login2.jsx", "JavaScript React", 0, 0, 104, 0, 0, 0, 0, 6, 9, 119
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Profiles\Profiles.css", "CSS", 0, 16, 0, 0, 0, 0, 0, 3, 5, 24
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\Profiles\Profiles.jsx", "JavaScript React", 0, 0, 115, 0, 0, 0, 0, 9, 1, 125
+"c:\Users\hp\Desktop\SkillsArt\src\Pages\SignUp\SignUp.jsx", "JavaScript React", 0, 0, 136, 0, 0, 0, 0, 7, 12, 155
+"c:\Users\hp\Desktop\SkillsArt\src\index.css", "CSS", 0, 12, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\hp\Desktop\SkillsArt\src\index.js", "JavaScript", 13, 0, 0, 0, 0, 0, 0, 3, 3, 19
+"c:\Users\hp\Desktop\SkillsArt\src\logo.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\hp\Desktop\SkillsArt\src\reportWebVitals.js", "JavaScript", 12, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Users\hp\Desktop\SkillsArt\src\setupTests.js", "JavaScript", 1, 0, 0, 0, 0, 0, 0, 4, 1, 6
+"Total", "-", 214, 279, 1246, 1, 32166, 38, 20, 611, 226, 34801

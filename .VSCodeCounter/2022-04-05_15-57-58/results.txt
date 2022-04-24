@@ -1,0 +1,88 @@
+Date : 2022-04-05 15:57:58
+Directory : c:\Users\hp\Desktop\SkillsArt
+Total : 39 files,  33964 codes, 611 comments, 226 blanks, all 34801 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          5 |     32,166 |          0 |          5 |     32,171 |
+| JavaScript React |         13 |      1,246 |        533 |         84 |      1,863 |
+| CSS              |          9 |        279 |         10 |         61 |        350 |
+| JavaScript       |          9 |        214 |         45 |         42 |        301 |
+| Markdown         |          1 |         38 |          0 |         33 |         71 |
+| HTML             |          1 |         20 |         23 |          1 |         44 |
+| XML              |          1 |          1 |          0 |          0 |          1 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                 |         39 |     33,964 |        611 |        226 |     34,801 |
+| Backend                                                           |          6 |      3,796 |         38 |         32 |      3,866 |
+| Backend\Server                                                    |          6 |      3,796 |         38 |         32 |      3,866 |
+| Backend\Server\DB                                                 |          1 |          8 |          0 |          3 |         11 |
+| Backend\Server\Models                                             |          1 |         48 |          6 |          4 |         58 |
+| Backend\Server\Routes                                             |          1 |         57 |         29 |         15 |        101 |
+| public                                                            |          2 |         45 |         23 |          2 |         70 |
+| src                                                               |         28 |      1,590 |        550 |        157 |      2,297 |
+| src\Components                                                    |          5 |        148 |         30 |         12 |        190 |
+| src\Components\Footer                                             |          2 |         67 |          1 |          7 |         75 |
+| src\Components\Navbar                                             |          1 |         50 |          9 |          2 |         61 |
+| src\Components\Slider                                             |          2 |         31 |         20 |          3 |         54 |
+| src\Pages                                                         |         15 |      1,332 |        513 |        125 |      1,970 |
+| src\Pages\About                                                   |          2 |         28 |         16 |          5 |         49 |
+| src\Pages\Artists                                                 |          2 |        161 |         80 |         11 |        252 |
+| src\Pages\Arts                                                    |          4 |        483 |        375 |         56 |        914 |
+| src\Pages\Home                                                    |          2 |        230 |          7 |         18 |        255 |
+| src\Pages\Login                                                   |          2 |        163 |         16 |         17 |        196 |
+| src\Pages\Profiles                                                |          2 |        131 |         12 |          6 |        149 |
+| src\Pages\SignUp                                                  |          1 |        136 |          7 |         12 |        155 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                          | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\DB\connection.js     | JavaScript       |          8 |          0 |          3 |         11 |
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\Models\UserSchema.js | JavaScript       |         48 |          6 |          4 |         58 |
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\Routes\Auth.js       | JavaScript       |         57 |         29 |         15 |        101 |
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\app.js               | JavaScript       |         37 |          3 |          8 |         48 |
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\package-lock.json    | JSON             |      3,624 |          0 |          1 |      3,625 |
+| c:\Users\hp\Desktop\SkillsArt\Backend\Server\package.json         | JSON             |         22 |          0 |          1 |         23 |
+| c:\Users\hp\Desktop\SkillsArt\README.md                           | Markdown         |         38 |          0 |         33 |         71 |
+| c:\Users\hp\Desktop\SkillsArt\package-lock.json                   | JSON             |     28,447 |          0 |          1 |     28,448 |
+| c:\Users\hp\Desktop\SkillsArt\package.json                        | JSON             |         48 |          0 |          1 |         49 |
+| c:\Users\hp\Desktop\SkillsArt\public\index.html                   | HTML             |         20 |         23 |          1 |         44 |
+| c:\Users\hp\Desktop\SkillsArt\public\manifest.json                | JSON             |         25 |          0 |          1 |         26 |
+| c:\Users\hp\Desktop\SkillsArt\src\App.css                         | CSS              |         33 |          0 |          6 |         39 |
+| c:\Users\hp\Desktop\SkillsArt\src\App.js                          | JavaScript       |         31 |          0 |          4 |         35 |
+| c:\Users\hp\Desktop\SkillsArt\src\App.test.js                     | JavaScript       |          7 |          0 |          2 |          9 |
+| c:\Users\hp\Desktop\SkillsArt\src\Components\Footer\Footer.css    | CSS              |         14 |          0 |          3 |         17 |
+| c:\Users\hp\Desktop\SkillsArt\src\Components\Footer\Footer.jsx    | JavaScript React |         53 |          1 |          4 |         58 |
+| c:\Users\hp\Desktop\SkillsArt\src\Components\Navbar\Navbar.jsx    | JavaScript React |         50 |          9 |          2 |         61 |
+| c:\Users\hp\Desktop\SkillsArt\src\Components\Slider\Slider.css    | CSS              |          0 |          0 |          1 |          1 |
+| c:\Users\hp\Desktop\SkillsArt\src\Components\Slider\Slider.jsx    | JavaScript React |         31 |         20 |          2 |         53 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\About\About.css           | CSS              |         11 |          0 |          3 |         14 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\About\About.jsx           | JavaScript React |         17 |         16 |          2 |         35 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Artists\Artists.css       | CSS              |         11 |          0 |          4 |         15 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Artists\Artists.jsx       | JavaScript React |        150 |         80 |          7 |        237 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts.css             | CSS              |        163 |          7 |         31 |        201 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts.jsx             | JavaScript React |        254 |         63 |         13 |        330 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts2.jsx            | JavaScript React |         14 |        303 |          4 |        321 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Arts\Arts3.jsx            | JavaScript React |         52 |          2 |          8 |         62 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Home\Home.css             | CSS              |         19 |          0 |          6 |         25 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Home\Home.jsx             | JavaScript React |        211 |          7 |         12 |        230 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Login\Login.jsx           | JavaScript React |         59 |         10 |          8 |         77 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Login\Login2.jsx          | JavaScript React |        104 |          6 |          9 |        119 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Profiles\Profiles.css     | CSS              |         16 |          3 |          5 |         24 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\Profiles\Profiles.jsx     | JavaScript React |        115 |          9 |          1 |        125 |
+| c:\Users\hp\Desktop\SkillsArt\src\Pages\SignUp\SignUp.jsx         | JavaScript React |        136 |          7 |         12 |        155 |
+| c:\Users\hp\Desktop\SkillsArt\src\index.css                       | CSS              |         12 |          0 |          2 |         14 |
+| c:\Users\hp\Desktop\SkillsArt\src\index.js                        | JavaScript       |         13 |          3 |          3 |         19 |
+| c:\Users\hp\Desktop\SkillsArt\src\logo.svg                        | XML              |          1 |          0 |          0 |          1 |
+| c:\Users\hp\Desktop\SkillsArt\src\reportWebVitals.js              | JavaScript       |         12 |          0 |          2 |         14 |
+| c:\Users\hp\Desktop\SkillsArt\src\setupTests.js                   | JavaScript       |          1 |          4 |          1 |          6 |
+| Total                                                             |                  |     33,964 |        611 |        226 |     34,801 |
++-------------------------------------------------------------------+------------------+------------+------------+------------+------------+

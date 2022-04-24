@@ -1,6 +1,16 @@
 import React from "react";
 import "../Arts/Arts.css";
 import Artist1 from "../Arts/Artist1.jpeg";
+import Art11 from "../Home/Art11.jpeg";
+import Art2 from "../Home/Art2.jpeg";
+import Art3 from "../Home/Art3.jpeg";
+import Art4 from "../Home/Art4.jpeg";
+import Art5 from "../Home/Art5.jpeg";
+import Art6 from "../Home/Art6.jpeg";
+
+
+
+
 
 // import {Artist1} from "C:/Users/sachin/Desktop/ty_project/src/components/images/Artist1.jpeg";
 
@@ -51,13 +61,13 @@ export const Arts = () => {
           >
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art11} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>App 1</h4>
                   <p>App</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art11}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 1"
@@ -73,13 +83,13 @@ export const Arts = () => {
             </div>
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art2} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Web 3</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art2}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
@@ -96,13 +106,13 @@ export const Arts = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art3} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>App 2</h4>
                   <p>App</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art3}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 2"
@@ -117,7 +127,7 @@ export const Arts = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+            {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
                 <img src={Artist1} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -184,17 +194,17 @@ export const Arts = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art4} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Card 1</h4>
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art4}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 1"
@@ -211,13 +221,13 @@ export const Arts = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art5} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Card 3</h4>
                   <p>Card</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art5}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Card 3"
@@ -234,13 +244,13 @@ export const Arts = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art6} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   <h4>Web 3</h4>
                   <p>Web</p>
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art6}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"

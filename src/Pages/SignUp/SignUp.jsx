@@ -71,7 +71,7 @@ export const SignUp = () => {
                         id="typeNameX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
-                        value={user.name}
+                        // value={user.name}
                       />
                       <label className="form-label" value={user.name}>
                         Username
@@ -84,7 +84,7 @@ export const SignUp = () => {
                         id="typeEmailX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
-                        value={user.email}
+                        // value={user.email}
                       />
                       <label className="form-label" value={user.email}>
                         Email
@@ -97,7 +97,7 @@ export const SignUp = () => {
                         id="createPasswordX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
-                        value={user.password}
+                        // value={user.password}
                       />
                       <label className="form-label" value={user.password}>
                         Create Password
@@ -110,7 +110,7 @@ export const SignUp = () => {
                         id="confirmPasswordX"
                         className="form-control form-control-lg"
                         onChange={handleInputs}
-                        value={user.cpassword}
+                        // value={user.cpassword}
                       />
                       <label className="form-label" value={user.cpassword}>
                         Confirm Password

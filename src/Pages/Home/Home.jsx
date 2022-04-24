@@ -1,10 +1,18 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import {  Card, Col, Container, Row } from "react-bootstrap";
 import { Slider } from "../../Components/Slider/Slider";
-import image from "../Home/Artist1.jpeg";
+// import image from "../Home/Artist1.jpeg";
 import "../Home/Home.css";
 import Artist1 from "../Home/Artist1.jpeg";
+// import Artist4 from "../Home/Artist4.jpeg";
+import Artist6 from "../Home/Artist6.jpeg";
+// import Artist5 from "../Home/Artist5.jpeg";
+import Artist7 from "../Home/Artist7.jpeg";
 import { Link } from "react-router-dom";
+import Art11 from "../Home/Art11.jpeg";
+import Art2 from "../Home/Art2.jpeg";
+import Art3 from "../Home/Art3.jpeg";
+
 
 export const Home = () => {
   return (
@@ -51,13 +59,13 @@ export const Home = () => {
           >
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art11} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   {/* <h4>App 1</h4>
                   <p>App</p> */}
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art11}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 1"
@@ -74,13 +82,13 @@ export const Home = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-web">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art2} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   {/* <h4>Web 3</h4>
                   <p>Web</p> */}
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art2}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="Web 3"
@@ -97,13 +105,13 @@ export const Home = () => {
 
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
               <div className="portfolio-wrap">
-                <img src={Artist1} className="img-fluid" alt="" />
+                <img src={Art3} className="img-fluid" alt="" />
                 <div className="portfolio-info">
                   {/* <h4>App 2</h4>
                   <p>App</p> */}
                   <div className="portfolio-links">
                     <a
-                      href={Artist1}
+                      href={Art3}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
                       title="App 2"
@@ -132,7 +140,7 @@ export const Home = () => {
         <Row>
           <Col lg={3} md={6} className="d-flex justify-content-center mb-2">
             <Card border="primary" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={image} />
+              <Card.Img variant="top" src={Artist6} />
               <Card.Body>
                 <Card.Title>Prince Joseph</Card.Title>
                 <Card.Text>
@@ -140,6 +148,9 @@ export const Home = () => {
                   <br />
                   Age , 25 <br />
                   2 Years Of Experience <br />
+                  Certified Painter by SkillsArt<br/>
+                  5 Achivements Awards<br/>
+
                 </Card.Text>
                 <Link to="/Profiles" className="btn btn-primary">
                   Visit Profile
@@ -151,55 +162,79 @@ export const Home = () => {
           </Col>
           <Col lg={3} md={6} className="d-flex justify-content-center mb-2">
             <Card border="primary" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={image} />
+              <Card.Img variant="top" src={Artist7} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Professional Painter
+                  <br />
+                  Age , 25 <br />
+                  2 Years Of Experience <br />
+                  Certified Painter by SkillsArt<br/>
+                  5 Achivements Awards<br/>
+
                 </Card.Text>
+                <Link to="/Profile2" className="btn btn-primary">
+                  Visit Profile
+                </Link>
                 {/* <Link to="/Artists" className="btn btn-primary">
                   Visit Profile
                 </Link> */}
-                <Button variant="primary">Visit Profile</Button>
+                {/* <Button variant="primary">Visit Profile</Button> */}
               </Card.Body>
             </Card>
           </Col>
           <Col lg={3} md={6} className="d-flex justify-content-center mb-2">
             <Card border="primary" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={image} />
+              <Card.Img variant="top" src={Artist6} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Professional Painter
+                  <br />
+                  Age , 25 <br />
+                  2 Years Of Experience <br />
+                  Certified Painter by SkillsArt<br/>
+                  5 Achivements Awards<br/>
+
                 </Card.Text>
+                <Link to="/Profile3" className="btn btn-primary">
+                  Visit Profile
+                </Link>
                 {/* <Link to="/Artists" className="btn btn-primary">
                   Visit Profile
                 </Link> */}
-                <Button variant="primary">Visit Profile</Button>
+                {/* <Button variant="primary">Visit Profile</Button> */}
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} md={6}>
+          <Col lg={3} md={6}  className="d-flex justify-content-center mb-2">
             <Card border="primary" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={image} />
+              <Card.Img variant="top" src={Artist7} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Professional Painter
+                  <br />
+                  Age , 25 <br />
+                  2 Years Of Experience <br />
+                  Certified Painter by SkillsArt<br/>
+                  5 Achivements Awards<br/>
+
                 </Card.Text>
-                <Button variant="primary">Visit Profile</Button>
+                <Link to="/Profile3" className="btn btn-primary">
+                  Visit Profile
+                </Link>
+                {/* <Button variant="primary">Visit Profile</Button> */}
               </Card.Body>
             </Card>
           </Col>
         </Row>
       </Container>
-      <div className="col-md-12 text-center">
+      {/* <div className="col-md-12 text-center">
         <h2 className="about-heading">About Us</h2>
         <div className="underline mx-auto"></div>
-      </div>
+      </div> */}
       {/* <div></div> */}
     </div>
   );

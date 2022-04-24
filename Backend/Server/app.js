@@ -25,23 +25,23 @@ const middleware = (req, res, next) => {
 app.get("/", (req, res) => {
   res.send(`Welcome to the HOME`);
 });
-app.get("/Arts", (req, res) => {
-  // res.cookie("Test", "Sachin");
-  res.send(`Welcome to the Arts`);
-});
-app.get("/Artists", (req, res) => {
-  res.send(`Welcome to the Artists`);
-});
-app.get("/About", middleware, (req, res) => {
-  console.log("This is about");
-  res.send(`Welcome to the About`);
-});
-app.get("/Login", (req, res) => {
-  res.send(`Welcome to the Login`);
-});
-app.get("/SignUp", (req, res) => {
-  res.send(`Welcome to the SignUp`);
-});
+// app.get("/Arts", (req, res) => {
+//   // res.cookie("Test", "Sachin");
+//   res.send(`Welcome to the Arts`);
+// });
+// app.get("/Artists", (req, res) => {
+//   res.send(`Welcome to the Artists`);
+// });
+// app.get("/About", middleware, (req, res) => {
+//   console.log("This is about");
+//   res.send(`Welcome to the About`);
+// });
+// app.get("/Login", (req, res) => {
+//   res.send(`Welcome to the Login`);
+// });
+// app.get("/SignUp", (req, res) => {
+//   res.send(`Welcome to the SignUp`);
+// });
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

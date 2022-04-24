@@ -1,13 +1,7 @@
 import React from "react";
 // import "../Profiles/Profiles.css";
-import Artist6 from "../Home/Artist6.jpeg";
-import Art11 from "../Home/Art11.jpeg";
-import Art2 from "../Home/Art2.jpeg";
-import ArtG from "../Profiles/ArtG.jpeg";
-// import Art4 from "../Home/Art1.jpeg";
-
-
-export const Profiles = () => {
+import Artist1 from "../Profiles/Artist1.jpeg";
+export const Profile3 = () => {
   return (
     <div>
       <div className="col-md-12 text-center">
@@ -28,7 +22,7 @@ export const Profiles = () => {
                     style={{ width: "150px", height: "150px" }}
                   >
                     <img
-                      src={Artist6}
+                      src={Artist1}
                       alt="Generic placeholder image"
                       className="img-fluid img-thumbnail mt-6 mb-5"
                       style={{ width: "250px", height: "250px" }}
@@ -43,7 +37,7 @@ export const Profiles = () => {
                     </button> */}
                   </div>
                   <div className="ms-5" style={{ marginTop: "130px" }}>
-                    <h5>Prince Joseph</h5>
+                    <h5>Andy Horwitz</h5>
                     {/* <p>New York</p> */}
                   </div>
                 </div>
@@ -74,7 +68,7 @@ export const Profiles = () => {
                     <div className="p-4" style={{ backgroundColor: "#f8f9fa" }}>
                       <p className="font-italic mb-1">Sketch Artist</p>
                       <p className="font-italic mb-1">Lives in New York</p>
-                      <p className="font-italic mb-0">2 years of experience</p>
+                      <p className="font-italic mb-0">6 years of experience</p>
                     </div>
                   </div>
                   <div className="d-flex justify-content-between align-items-center mb-4">
@@ -90,14 +84,14 @@ export const Profiles = () => {
                   <div className="row g-2">
                     <div className="col mb-2">
                       <img
-                        src={Art11}
+                        src={Artist1}
                         alt="image 1"
                         className="w-100 rounded-3"
                       />
                     </div>
                     <div className="col mb-2">
                       <img
-                        src={Art2}
+                        src={Artist1}
                         alt="image 1"
                         className="w-100 rounded-3"
                       />
@@ -106,18 +100,18 @@ export const Profiles = () => {
                   <div className="row g-2">
                     <div className="col">
                       <img
-                        src={ArtG}
+                        src={Artist1}
                         alt="image 1"
                         className="w-100 rounded-3"
                       />
                     </div>
-                    {/* <div className="col">
+                    <div className="col">
                       <img
-                        src={Art4}
+                        src={Artist1}
                         alt="image 1"
                         className="w-100 rounded-3"
                       />
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
