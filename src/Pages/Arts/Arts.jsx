@@ -8,10 +8,6 @@ import Art4 from "../Home/Art4.jpeg";
 import Art5 from "../Home/Art5.jpeg";
 import Art6 from "../Home/Art6.jpeg";
 
-
-
-
-
 // import {Artist1} from "C:/Users/sachin/Desktop/ty_project/src/components/images/Artist1.jpeg";
 
 export const Arts = () => {
@@ -38,16 +34,16 @@ export const Arts = () => {
                 <li data-filter="*" className="filter-active">
                   All
                 </li>
-                <li data-filter=".filter-app" className="">
+                <li data-filter=".filter-Paintings" className="">
                   Paintings
                 </li>
-                <li data-filter=".filter-card" className="">
+                <li data-filter=".filter-Sketches" className="">
                   Sketches
                 </li>
-                <li data-filter=".filter-web" className="">
+                <li data-filter=".filter-Sculptures" className="">
                   Sculptures
                 </li>
-                <li data-filter=".filter-web" className="">
+                <li data-filter=".filter-Handicrafts" className="">
                   Handicrafts
                 </li>
               </ul>
@@ -264,6 +260,8 @@ export const Arts = () => {
                 </div>
               </div>
             </div>
+
+            {/* ***************************Paintings- Tab************************************** */}
 
             {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
               <div className="portfolio-wrap">

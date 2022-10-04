@@ -1,18 +1,17 @@
 import React from "react";
-import {  Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { Slider } from "../../Components/Slider/Slider";
 // import image from "../Home/Artist1.jpeg";
 import "../Home/Home.css";
-import Artist1 from "../Home/Artist1.jpeg";
+// import Artist1 from "../Home/Artist1.jpeg";
 // import Artist4 from "../Home/Artist4.jpeg";
 import Artist6 from "../Home/Artist6.jpeg";
 // import Artist5 from "../Home/Artist5.jpeg";
 import Artist7 from "../Home/Artist7.jpeg";
-import { Link } from "react-router-dom";
 import Art11 from "../Home/Art11.jpeg";
 import Art2 from "../Home/Art2.jpeg";
 import Art3 from "../Home/Art3.jpeg";
-
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -33,19 +32,19 @@ export const Home = () => {
           >
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="portfolio-flters">
-                <li data-filter="*" className="filter-active">
+                <li data-filter="All" className="filter-active">
                   All
                 </li>
-                <li data-filter=".filter-app" className="">
+                <li data-filter=".filter-Paintings" className="">
                   Paintings
                 </li>
-                <li data-filter=".filter-card" className="">
+                <li data-filter=".filter-Sketches" className="">
                   Sketches
                 </li>
-                <li data-filter=".filter-web" className="">
+                <li data-filter=".filter-Sculptures" className="">
                   Sculptures
                 </li>
-                <li data-filter=".filter-web" className="">
+                <li data-filter=".filter-Handicrafts" className="">
                   Handicrafts
                 </li>
               </ul>
@@ -57,7 +56,7 @@ export const Home = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-All">
               <div className="portfolio-wrap">
                 <img src={Art11} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -80,7 +79,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-All">
               <div className="portfolio-wrap">
                 <img src={Art2} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -103,7 +102,7 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="col-lg-4 col-md-6 portfolio-item filter-All">
               <div className="portfolio-wrap">
                 <img src={Art3} className="img-fluid" alt="" />
                 <div className="portfolio-info">
@@ -148,9 +147,10 @@ export const Home = () => {
                   <br />
                   Age , 25 <br />
                   2 Years Of Experience <br />
-                  Certified Painter by SkillsArt<br/>
-                  5 Achivements Awards<br/>
-
+                  Certified Painter by SkillsArt
+                  <br />
+                  5 Achivements Awards
+                  <br />
                 </Card.Text>
                 <Link to="/Profiles" className="btn btn-primary">
                   Visit Profile
@@ -166,13 +166,14 @@ export const Home = () => {
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                Professional Painter
+                  Professional Painter
                   <br />
                   Age , 25 <br />
                   2 Years Of Experience <br />
-                  Certified Painter by SkillsArt<br/>
-                  5 Achivements Awards<br/>
-
+                  Certified Painter by SkillsArt
+                  <br />
+                  5 Achivements Awards
+                  <br />
                 </Card.Text>
                 <Link to="/Profile2" className="btn btn-primary">
                   Visit Profile
@@ -190,13 +191,14 @@ export const Home = () => {
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                Professional Painter
+                  Professional Painter
                   <br />
                   Age , 25 <br />
                   2 Years Of Experience <br />
-                  Certified Painter by SkillsArt<br/>
-                  5 Achivements Awards<br/>
-
+                  Certified Painter by SkillsArt
+                  <br />
+                  5 Achivements Awards
+                  <br />
                 </Card.Text>
                 <Link to="/Profile3" className="btn btn-primary">
                   Visit Profile
@@ -208,19 +210,20 @@ export const Home = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={3} md={6}  className="d-flex justify-content-center mb-2">
+          <Col lg={3} md={6} className="d-flex justify-content-center mb-2">
             <Card border="primary" style={{ width: "18rem" }}>
               <Card.Img variant="top" src={Artist7} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                Professional Painter
+                  Professional Painter
                   <br />
                   Age , 25 <br />
                   2 Years Of Experience <br />
-                  Certified Painter by SkillsArt<br/>
-                  5 Achivements Awards<br/>
-
+                  Certified Painter by SkillsArt
+                  <br />
+                  5 Achivements Awards
+                  <br />
                 </Card.Text>
                 <Link to="/Profile3" className="btn btn-primary">
                   Visit Profile
