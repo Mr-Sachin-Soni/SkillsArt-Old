@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SkillsArt-Old/static/css/main.3fa024c1.css",
+    "main.js": "/SkillsArt-Old/static/js/main.be2d12fd.js",
+    "static/js/787.5530c3de.chunk.js": "/SkillsArt-Old/static/js/787.5530c3de.chunk.js",
+    "static/media/Art6.jpeg": "/SkillsArt-Old/static/media/Art6.4bdaf4ea59a85518bd17.jpeg",
+    "static/media/Art4.jpeg": "/SkillsArt-Old/static/media/Art4.272012b4439da3c6bafc.jpeg",
+    "static/media/pot2.jpg": "/SkillsArt-Old/static/media/pot2.7d1ff4584485f5552656.jpg",
+    "static/media/Art5.jpeg": "/SkillsArt-Old/static/media/Art5.81e8145699ebac705c1f.jpeg",
+    "static/media/Art2.jpg": "/SkillsArt-Old/static/media/Art2.ac314bb2113ee5433fd2.jpg",
+    "static/media/Art1.jpg": "/SkillsArt-Old/static/media/Art1.5d0e196554b8d2d8f292.jpg",
+    "static/media/Artist1.jpeg": "/SkillsArt-Old/static/media/Artist1.d7a26d14992ee22083ab.jpeg",
+    "static/media/Art3.jpeg": "/SkillsArt-Old/static/media/Art3.9e67e7f3b3d5c253875e.jpeg",
+    "static/media/Art11.jpeg": "/SkillsArt-Old/static/media/Art11.846323334e81d74df845.jpeg",
+    "static/media/Art2.jpeg": "/SkillsArt-Old/static/media/Art2.555cefbd4f5bae507629.jpeg",
+    "static/media/Art1.jpeg": "/SkillsArt-Old/static/media/Art1.c7c1a0f96f19635c868c.jpeg",
+    "static/media/Artist6.jpeg": "/SkillsArt-Old/static/media/Artist6.c8582d6d9bfd9d9a26f4.jpeg",
+    "static/media/Artist7.jpeg": "/SkillsArt-Old/static/media/Artist7.0435edd5060e0dd0c41d.jpeg",
+    "static/media/Profile2.jpg": "/SkillsArt-Old/static/media/Profile2.ca581ae1628e295ec2a0.jpg",
+    "index.html": "/SkillsArt-Old/index.html",
+    "main.3fa024c1.css.map": "/SkillsArt-Old/static/css/main.3fa024c1.css.map",
+    "main.be2d12fd.js.map": "/SkillsArt-Old/static/js/main.be2d12fd.js.map",
+    "787.5530c3de.chunk.js.map": "/SkillsArt-Old/static/js/787.5530c3de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fa024c1.css",
+    "static/js/main.be2d12fd.js"
+  ]
+}
